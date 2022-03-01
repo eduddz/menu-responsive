@@ -1,6 +1,11 @@
+import { Header } from './components/Header';
+import './styles/index.scss';
+
 
 export function App() {
   return (
-    <h1>hi</h1>
+    <>
+      <Header />
+    </>
   )
 }
